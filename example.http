@@ -1,0 +1,16 @@
+### Send POST request with json body
+DELETE http://localhost:8000
+Content-Type: application/json
+
+{
+  "id": 4
+}
+
+###
+POST  http://localhost:8000
+content-Type:application/json
+
+{
+  "id": 5,
+  "name": "newUser"
+}
